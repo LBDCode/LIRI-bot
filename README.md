@@ -23,15 +23,18 @@ https://drive.google.com/file/d/1cOpitVDJJB1eqr2NplaKR5aPqyoQyTe3/view?usp=shari
 
 ### From your terminal, run 'node liri.js' and one of four commands:
 
--[do-what-it-says]
--[concert-this] + band name
--[spotify-this-song] + optional song
--[movie-this] + optional movie title
+-do-what-it-says
+
+-concert-this + band name
+
+-spotify-this-song + optional song
+
+-movie-this + optional movie title
 
 
 ### do-what-it-says:
 
-The app will read random.txt to determine the command (API to use) and search parameter, then run one of the three defind queries (concert-this, spotify-this-song, or movie-this).
+LIRI will read random.txt to determine the command (API to use) and search parameter, then run one of the three defind queries (concert-this, spotify-this-song, or movie-this).
 
 
 ### concert-this <band name>:
