@@ -2,8 +2,10 @@
 
 ## The project:
 
-LIRI-bot is a "Language Interpretation and Recognition Interface" app that takes user instructions from the terminal and returns information about concerts, album tracks, and movies.
+LIRI-bot is a "Language Interpretation and Recognition Interface" app that takes user instructions from the terminal and returns information about concerts, album tracks, and movies to the terminal and a log file.
 
+link to demo:
+https://drive.google.com/file/d/1cOpitVDJJB1eqr2NplaKR5aPqyoQyTe3/view?usp=sharing
 
 ## APIs and other tools:
 
