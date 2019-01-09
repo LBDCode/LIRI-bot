@@ -4,6 +4,7 @@ var axios = require("axios");
 var Spotify = require('node-spotify-api'); 
 var keys = require('./keys.js');
 var fs = require("fs");
+var moment = require('moment');
 
 var spotify = new Spotify(keys.spotify);
 
@@ -33,9 +34,10 @@ function doWhat(c, s) {
         function(response) {
             var concertArr = response.data;
             concertArr.forEach(function (elem) {
+                var date = moment(elem.datetime).format("MM/DD/YYYY");
                 console.log(elem.venue.name);
                 console.log(elem.venue.city + ", " + elem.region);
-                console.log(elem.datetime + "\n");
+                console.log(date + "\n");
             });
         });
     } else if (c === "spotify-this-song") {
